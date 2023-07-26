@@ -145,5 +145,6 @@ variable "label_defaults" {
       description = optional(string, "Relative effort to complete issue or PR.")
     }), {})
   })
-  default = {}
+  description = "Set of labels that are applied to the repositories. Set use_default_labels to false for these to not be created."
+  default     = {}
 }

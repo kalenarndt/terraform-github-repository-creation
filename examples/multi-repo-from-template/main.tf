@@ -44,10 +44,9 @@ module "repo_time" {
 
   labels = {
     my_label = {
-      name = "label: stuff"
-      color = "5ebeff"
+      name        = "label: stuff"
+      color       = "5ebeff"
       description = "This tag is super important"
     }
   }
-
 }
