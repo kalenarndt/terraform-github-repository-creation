@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "oderwat.indent-rainbow",
+    "davidanson.vscode-markdownlint",
+    "mohsen1.prettify-json",
+    "gruntfuggly.todo-tree",
+    "aaron-bond.better-comments",
+    "github.vscode-pull-request-github",
+    "bierner.markdown-preview-github-styles",
+    "hashicorp.terraform"
+  ]
+}
