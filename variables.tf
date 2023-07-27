@@ -10,6 +10,7 @@ variable "github_repos" {
       visibility = "private"
       allow_merge_commit = false
       delete_branch_on_merge = true
+      enable_issues = true
       auto_init = true
       use_template = true
       default_branch = "main"

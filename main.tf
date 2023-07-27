@@ -7,6 +7,7 @@ resource "github_repository" "repo" {
   name                   = each.value.name
   description            = each.value.description
   visibility             = each.value.visibility
+  has_issues             = each.value.enable_issues
   allow_merge_commit     = each.value.allow_merge_commit
   delete_branch_on_merge = each.value.delete_branch_on_merge
   auto_init              = each.value.auto_init
