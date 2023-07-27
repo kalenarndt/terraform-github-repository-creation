@@ -26,7 +26,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [github_issue_label.labels](https://registry.terraform.io/providers/hashicorp/github/latest/docs/resources/issue_label) | resource |
+| [github_issue_label.labels](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/issue_label) | resource |
 
 ## Inputs
 
