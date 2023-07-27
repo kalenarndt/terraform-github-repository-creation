@@ -14,7 +14,7 @@ resource "github_repository" "repo" {
   dynamic "template" {
     for_each = each.value.use_template ? { "use_template" : "" } : {}
     content {
-      owner                = "kalenarndt"
+      owner                = each.value.template_owner
       repository           = each.value.template_repo
       include_all_branches = each.value.template_copy_all_branches
     }
