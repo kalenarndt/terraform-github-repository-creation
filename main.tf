@@ -11,6 +11,7 @@ resource "github_repository" "repo" {
   allow_merge_commit     = each.value.allow_merge_commit
   delete_branch_on_merge = each.value.delete_branch_on_merge
   auto_init              = each.value.auto_init
+  archive_on_destroy     = each.value.archive_on_destroy
 
   dynamic "template" {
     for_each = each.value.use_template ? { "use_template" : "" } : {}

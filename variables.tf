@@ -11,6 +11,7 @@ variable "github_repos" {
       allow_merge_commit = false
       delete_branch_on_merge = true
       enable_issues = true
+      archive_on_destroy = true
       auto_init = true
       use_template = true
       default_branch = "main"
@@ -56,7 +57,7 @@ variable "label_defaults" {
       description = optional(string, "Brand new functionality, features, pages, workflows, endpoints, etc.")
     }), {})
     breaking_change = optional(object({
-      name        = optional(string, "breaking-change")
+      name        = optional(string, "type: breaking-change")
       color       = optional(string, "d73a4a")
       description = optional(string, "Introduces a breaking change.")
     }), {})
